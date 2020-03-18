@@ -65,3 +65,12 @@ ul {
   list-style-type: square;
   padding: 1em;
 }
+
+.huatulco {
+  background-color: #c2b280;
+  color: #42692f;
+}
+
+.huatulco img {
+  box-shadow: 10px 10px 5px grey;	
+}
