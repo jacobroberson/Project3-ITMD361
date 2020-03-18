@@ -66,11 +66,34 @@ ul {
   padding: 1em;
 }
 
+
 .huatulco {
   background-color: #c2b280;
   color: #42692f;
 }
 
+.huatulco h1 {
+  font-family: Impact, Charcoal, sans-serif
+}
+
 .huatulco img {
-  box-shadow: 10px 10px 5px grey;	
+  box-shadow: 10px 10px 5px grey;
+  border-radius: 15%;
+}
+
+.paige {
+  background-color: #B153E3;
+  text-align: center;
+}
+
+.paige ul {
+  list-style-type: none;
+}
+
+.paige h1 {
+  font-family: 'Great Vibes', cursive;
+}
+
+.paige img {
+  border-radius: 5%;
 }
