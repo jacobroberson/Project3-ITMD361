@@ -42,6 +42,13 @@ nav {
   display: inline-block;
 }
 
+audio {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 33%;
+  padding-top: 1.5%;
+}
 
 .links {
   text-align: center;
@@ -86,6 +93,10 @@ nav {
 }
 
 .huatulco img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 66%;
   box-shadow: 10px 10px 5px grey;
   border-radius: 15%;
 }
@@ -102,6 +113,15 @@ nav {
 
 .paige h1 {
   font-family: 'Great Vibes', cursive;
+  font-size: 400%;
+}
+
+.paige p {
+  font-size: 150%;	
+}
+
+.paige section li {
+  font-size: 125%;	
 }
 
 .paige img {
