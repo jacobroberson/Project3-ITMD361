@@ -60,7 +60,7 @@ audio {
   list-style: none;
   display: inline-block;
   line-height: 3.125em;
-  box-shadow: 5px 5px black;
+  box-shadow: 0.3125rem 0.3125rem black;
 }
 
 
@@ -80,7 +80,7 @@ audio {
 .links li a.active {
   background-color: black;
   color: white;
-  box-shadow: 5px 5px white;
+  box-shadow: 0.3125rem 0.3125rem white;
 }
 
 .huatulco {
@@ -97,7 +97,7 @@ audio {
   margin-left: auto;
   margin-right: auto;
   width: 66%;
-  box-shadow: 10px 10px 5px grey;
+  box-shadow: 0.6250em 0.6250em 0.3125em grey;
   border-radius: 15%;
 }
 
