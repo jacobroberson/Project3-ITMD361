@@ -23,6 +23,7 @@ var locations = [
 ];
 	
 var bay = 'media/bay.png';
+var markers = [];
 
 var map;
   function initMap() {
@@ -33,7 +34,8 @@ var map;
 	mapTypeID: google.maps.MapTypeId.SATELLITE,
 	mapTypeID: google.maps.MapTypeId.TERRAIN
   });
-
+  
+clearMarkers();
 for (var i = 0; i < locations.length; i++) {
   addMarkerWithTimeout(locations[i], names[i], i * 200);
 }
@@ -49,4 +51,11 @@ function addMarkerWithTimeout(position, name, timeout) {
     }))
   }, timeout);
 }
+
+function clearMarkers() {
+    for (var i = 0; i < markers.length; i++) {
+      markers[i].setMap(null);
+    }
+    markers = [];
+  }
 }
