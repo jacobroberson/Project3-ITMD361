@@ -33,8 +33,7 @@ var map;
 	mapTypeID: google.maps.MapTypeId.SATELLITE,
 	mapTypeID: google.maps.MapTypeId.TERRAIN
   });
-  
-clearMarkers();
+
 for (var i = 0; i < locations.length; i++) {
   addMarkerWithTimeout(locations[i], names[i], i * 200);
 }
