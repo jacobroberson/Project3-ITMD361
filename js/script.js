@@ -43,7 +43,7 @@ for (var i = 0; i < locations.length; i++) {
 function addMarkerWithTimeout(position, name, timeout) {
   window.setTimeout(function() {
     markers.push(new google.maps.Marker({
-   position: position,
+    position: position,
     map: map,
     animation: google.maps.Animation.BOUNCE,
     icon: bay,
