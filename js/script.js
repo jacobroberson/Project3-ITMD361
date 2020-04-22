@@ -31,8 +31,8 @@ var map;
 	center: {lat: 15.8340, lng: -96.3199},
 	zoom: 11,
 	scaleControl: true,
-	mapTypeID: google.maps.MapTypeId.SATELLITE,
-	mapTypeID: google.maps.MapTypeId.TERRAIN
+	mapTypeId: google.maps.MapTypeId.SATELLITE,
+	mapTypeId: google.maps.MapTypeId.TERRAIN
   });
   
 clearMarkers();
